@@ -65,7 +65,9 @@ function DrawerAppBar(props) {
             edge="start"
             onClick={handleDrawerToggle}
           >
-            <BathtubIcon sx={{ color: "#fb923c", width: "100px" }} />
+            <BathtubIcon
+              sx={{ color: "#fb923c", width: "100px", fontSize: "3rem" }}
+            />
           </IconButton>
 
           <Typography

@@ -9,12 +9,14 @@ import {
 const Footer = () => {
   return (
     <footer
+      className="footer-bar"
       style={{
         background: "#262626",
         color: "#ffff",
         textAlign: "center",
         padding: "1rem",
         marginTop: "3rem",
+        borderRadius: "0.3rem",
       }}
     >
       <p>
