@@ -1,0 +1,25 @@
+::placeholder {
+  color: #929eb6;
+  opacity: 1;
+}
+
+.washroom-img {
+  width: 70%;
+  height: 70%;
+  cursor: pointer;
+}
+
+.washroom-img:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+.bath-img {
+  margin: 1rem;
+  display: flex;
+  font-size: 0.8rem;
+}
+
+.washroom-typography {
+  text-align: center;
+}
