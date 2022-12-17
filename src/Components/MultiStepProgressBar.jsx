@@ -35,7 +35,6 @@ function MultiStepProgressBar() {
           pageone: <PageOne onButtonClick={nextPage} />,
           pagetwo: <PageTwo onButtonClick={nextPage} />,
           pagethree: <PageThree onButtonClick={nextPage} />,
-          // pagefour: <PageFour />,
         }[page]
       }
     </div>

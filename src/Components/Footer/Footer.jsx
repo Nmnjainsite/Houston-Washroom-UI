@@ -1,11 +1,6 @@
 import React from "react";
 import { CopyrightRounded } from "@mui/icons-material";
-import {
-  Typography,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-} from "@mui/material";
+import { Typography } from "@mui/material";
 const Footer = () => {
   return (
     <footer
