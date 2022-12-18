@@ -56,7 +56,7 @@ function DrawerAppBar(props) {
       <AppBar
         component="nav"
         className="nav-bar"
-        style={{ background: "white" }}
+        style={{ background: "white", boxShadow: "none" }}
       >
         <Toolbar>
           <IconButton
